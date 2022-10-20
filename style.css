@@ -1,0 +1,11 @@
+.box {
+    display: grid;
+    gap: 1px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }
+  
+  div > div {
+    padding: 10px;
+    background-color: #ccc;
+  }
+
